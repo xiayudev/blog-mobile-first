@@ -1,0 +1,120 @@
+/* -- General Settings -- */
+* {
+	box-sizing: border-box;
+	margin: 0%;
+	padding: 0%;
+}
+
+:root {
+	--font-roboto: "Roboto", sans-serif;
+	--font-roboto-mono: "Roboto Mono", monospace;
+	--font-roboto-slab: "Roboto Slab", serif;
+	--color-blue: #4763cf;
+	--color-dark-blue: #00008b;
+	--color-black: #000000;
+	--color-white: #fff1ff;
+}
+
+html {
+	font-size: 62.5%; /* Equivalente a 10px*/
+	font-family: var(--font-roboto-mono);
+}
+
+a {
+	text-decoration: none;
+	color: var(--color-black);
+}
+
+/* ====================== HOME PAGE ==================== */
+/* ---------------- HEADER ---------------- */
+
+.header-container {
+	display: grid;
+	grid-template-rows: 50px 90px;
+	grid-template-columns: 1fr;
+}
+
+.social-medias-container {
+	width: 100%;
+	display: grid;
+	background-color: var(--color-blue);
+}
+
+.social-medias {
+	display: grid;
+	height: 100%;
+	grid-template-columns: repeat(5, 1fr);
+	place-items: center;
+}
+
+.social-medias i {
+	color: var(--color-white);
+	transition: color 0.5s;
+}
+
+.social-medias i:hover {
+	color: #00038d;
+}
+
+.logo-about-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	place-items: center;
+}
+
+.img-logo-container a img {
+	width: 100%;
+}
+
+.logo-about-container .about-me {
+	font-size: 1.6rem;
+	font-weight: bold;
+	border-bottom: 1px solid var(--color-black);
+}
+
+/* ------------ MAIN -------------- */
+.home-main {
+	width: 100%;
+	height: calc(100vh - 140px);
+	display: grid;
+}
+
+.home-info-container {
+	background: url("../assets/imgs/computer.png") center/cover no-repeat;
+	width: 100%;
+	padding: 0 3rem 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.home-info {
+	height: 75%;
+	display: grid;
+	grid-template-rows: 2fr 1fr;
+}
+
+.home-info p {
+	font-size: 2rem;
+	text-align: center;
+	color: var(--color-white);
+}
+.home-info a {
+	width: 13rem;
+	height: 5rem;
+	padding: 13px 20px;
+	font-size: 1.6rem;
+	display: block;
+	place-self: end center;
+	border: 1px solid var(--color-white);
+	color: var(--color-white);
+	transition: all 0.5s;
+}
+
+.home-info a:hover {
+	background-color: #001150;
+	box-shadow: 2px 2px 6px 2px var(--color-dark-blue), -2px -2px 6px 2px var(--color-dark-blue);
+	border: 1px solid var(--color-dark-blue);
+}
+
+/* ====================== HOME PAGE ==================== */
