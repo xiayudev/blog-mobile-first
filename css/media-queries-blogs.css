@@ -1,0 +1,139 @@
+/* ----------------- TABLET -------------- */
+@media screen and (min-width: 768px) {
+	/* ---- HEADER ---- */
+	.social-medias {
+		width: 300px;
+		justify-self: end;
+		margin-right: 3rem;
+	}
+
+	.img-logo-container {
+		justify-self: start;
+		margin-left: 3rem;
+	}
+
+	.img-logo-container a img {
+		width: 220px;
+	}
+
+	.logo-about-container .about-me {
+		justify-self: end;
+		margin-right: 4rem;
+		font-size: 2rem;
+	}
+
+	/* ---- MAIN ---- */
+	.blogs-recommended-container {
+		padding: 2rem 9rem 4rem;
+	}
+
+	.blogs-recommended--left h3 {
+		font-size: 2rem;
+		margin-bottom: 2rem;
+	}
+
+	.blogs-recommended--right h1 {
+		font-size: 2.5rem;
+		margin: 1.5rem 0;
+	}
+
+	.blogs-recommended--right p {
+		font-size: 1.6rem;
+	}
+
+	section .blogs__link {
+		width: 13rem;
+		height: 5rem;
+		padding: 14px 24px;
+		font-size: 1.6rem;
+	}
+
+	.blogs-articles-section {
+		grid-template-columns: repeat(2, 1fr);
+		column-gap: 10px;
+	}
+
+	.blogs-articles-container {
+		padding: 2rem 6rem 10rem;
+	}
+
+	.blogs-articles-container h2 {
+		font-size: 2.2rem;
+		padding-bottom: 2rem;
+	}
+
+	/* .blogs-article,
+	.blogs-recommended--right {
+		position: relative;
+	} */
+
+	.blogs-article h3 {
+		font-size: 2rem;
+	}
+
+	.blogs-article p {
+		font-size: 1.6rem;
+	}
+
+	/* ---- FOOTER ---- */
+	.footer-container {
+		height: 10rem;
+		border-top-width: 30px;
+	}
+
+	.footer-container p {
+		font-size: 1.5rem;
+	}
+}
+/* ----------------- DESKTOP -------------- */
+@media screen and (min-width: 1440px) {
+	/* ---- HEADER ---- */
+	.social-medias {
+		margin-right: 5rem;
+	}
+
+	.img-logo-container {
+		margin-left: 5rem;
+	}
+	.logo-about-container .about-me {
+		margin-right: 6rem;
+		font-size: 2.5rem;
+	}
+
+	/* ---- MAIN ---- */
+	.blogs-recommended-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.blogs-recommended--left {
+		padding: 2rem 3rem;
+	}
+
+	.blogs-recommended--right {
+		padding: 2rem 3rem;
+		grid-template-rows: max-content 250px max-content;
+		align-content: center;
+	}
+
+	.blogs-recommended--right h1 {
+		font-size: 3.5rem;
+	}
+
+	.blogs-recommended--right p {
+		font-size: 2.4rem;
+		margin: 2rem 0 0;
+	}
+
+	.blogs-recommended--right .blogs__link {
+		align-self: start;
+	}
+
+	.blogs-articles-container {
+		padding: 2rem 15rem 10rem;
+	}
+
+	.blogs-articles-section {
+		grid-template-columns: repeat(3, 1fr);
+		gap: 20px;
+	}
+}
