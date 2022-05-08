@@ -1,0 +1,126 @@
+/* ---------------- TABLET --------------- */
+@media screen and (min-width: 768px) {
+	/* ---- HEADER ---- */
+	.social-medias {
+		width: 300px;
+		justify-self: end;
+		margin-right: 5rem;
+	}
+
+	.img-logo-container {
+		justify-self: start;
+		margin-left: 5rem;
+	}
+
+	.img-logo-container a img {
+		width: 220px;
+	}
+
+	.logo-about-container .about-me {
+		justify-self: end;
+		margin-right: 6rem;
+		font-size: 2rem;
+	}
+
+	/* ---- MAIN ---- */
+	.blog-img-section {
+		padding: 0 10rem 2rem;
+	}
+
+	.blog-info-container {
+		padding: 0 8rem 2rem;
+	}
+
+	.blog-info-container h2 {
+		padding-bottom: 2rem;
+		font-size: 1.8rem;
+	}
+
+	.blog-info-container h1 {
+		font-size: 2.5rem;
+	}
+
+	.blog-info-container p {
+		font-size: 1.6rem;
+	}
+
+	.lets-talk-container {
+		padding: 2rem 10rem;
+	}
+
+	.contac-info-container,
+	.write-info-container {
+		grid-template-columns: 1fr 3fr;
+	}
+
+	.img-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.img-container img {
+		width: 60%;
+	}
+
+	/* --- FOOTER --- */
+	.footer-container {
+		height: 120px;
+		border-top-width: 30px;
+	}
+
+	.footer-container p {
+		font-size: 1.4rem;
+	}
+}
+
+/* ---------------- DESKTOP ---------------- */
+@media screen and (min-width: 1440px) {
+	/* ---- MAIN ---- */
+	.blog-img-section {
+		padding: 2rem 18rem;
+	}
+
+	.blog-info-container {
+		padding: 2rem 20rem;
+	}
+
+	.blog-info-container h2 {
+		padding-bottom: 3rem;
+		font-size: 2.8rem;
+	}
+
+	.blog-info-container h1 {
+		margin: 3rem 0;
+		font-size: 3.5rem;
+	}
+
+	.blog-info-container p {
+		font-size: 2.8rem;
+	}
+
+	.lets-talk-container {
+		grid-template-columns: repeat(2, 1fr);
+		padding: 10rem 35rem;
+	}
+
+	.img-container img {
+		width: 80%;
+	}
+
+	.contact-info a {
+		font-size: 2.4rem;
+	}
+
+	.contact-info p {
+		margin-top: 2rem;
+		font-size: 2rem;
+	}
+
+	/* ---- FOOTER ---- */
+	.footer-container {
+		height: 150px;
+	}
+	.footer-container p {
+		font-size: 2rem;
+	}
+}

@@ -250,3 +250,77 @@ section .blogs__link:hover {
 }
 
 /* ====================== BLOGS PAGE ==================== */
+
+/* ====================== BLOG PAGE ==================== */
+/* -------------- MAIN ----------- */
+.blog-main {
+	width: 100%;
+	display: grid;
+	row-gap: 20px;
+}
+
+.blog-img-section {
+	padding: 0 3rem 2rem;
+}
+
+.blog-img-container img {
+	width: 100%;
+	border-radius: 1rem;
+}
+
+.blog-img-container a:hover {
+	border-bottom: 1px solid var(--color-black);
+}
+
+/* ---- Info container ---- */
+
+.blog-info-container {
+	padding: 0 3rem 2rem;
+}
+
+.blog-info-container h2 {
+	padding-bottom: 1rem;
+	text-align: center;
+	border-bottom: 1px solid #c3c6ca;
+}
+
+.blog-info-container h1 {
+	margin: 2rem 0;
+	font-size: 1.8rem;
+}
+
+.blog-info-container p {
+	font-size: 1.3rem;
+}
+
+/* ---- Lets talk container ---- */
+
+.lets-talk-container {
+	padding: 2rem 3rem;
+	display: grid;
+	row-gap: 20px;
+	background-color: #e6e9ed;
+}
+
+.write-info-container,
+.contac-info-container {
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	column-gap: 10px;
+}
+
+.contact-info a {
+	font-size: 1.4rem;
+	font-weight: bold;
+	border-bottom: 1px solid var(--color-black);
+}
+
+.contact-info p {
+	margin-top: 1rem;
+}
+
+.img-container img {
+	width: 80%;
+}
+
+/* ====================== BLOG PAGE ==================== */
